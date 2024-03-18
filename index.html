@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <!-- developmetn mode -->
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <!-- production mode -->
+    <link rel="stylesheet" href="css/style.compress.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt=" trillo logo" class="logo" />
+
+        <form action="#" class="search">
+          <input type="text" placeholder="Search hotels" class="search-input" />
+          <button class="search-button">
+            <svg class="search-icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav-icon-box">
+            <svg class="user-nav-icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav-notification">7</span>
+          </div>
+
+          <div class="user-nav-icon-box">
+            <svg class="user-nav-icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav-notification">13</span>
+          </div>
+          <div class="user-nav-user">
+            <img src="img/user.jpg" class="user-nav-photo" alt="" />
+            <span class="user-nav-name">Harish</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav-item side-nav-item-active">
+              <a href="#" class="side-nav-link">
+                <svg class="side-nav-iconbox">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span class="side-nav-name">Hotel</span>
+              </a>
+            </li>
+
+            <li class="side-nav-item">
+              <a href="#" class="side-nav-link">
+                <svg class="side-nav-iconbox">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span class="side-nav-name">Flight</span>
+              </a>
+            </li>
+
+            <li class="side-nav-item">
+              <a href="#" class="side-nav-link">
+                <svg class="side-nav-iconbox">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span class="side-nav-name">Car rental</span>
+              </a>
+            </li>
+
+            <li class="side-nav-item">
+              <a href="#" class="side-nav-link">
+                <svg class="side-nav-iconbox">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span class="side-nav-name">Tours</span>
+              </a>
+            </li>
+          </ul>
+          <div class="legal">
+            &copy; This App Was Created By Harish Tagadghar just to explore css
+            properties
+          </div>
+        </nav>
+        <main class="hotel-view">
+          <div class="gallary">
+            <figure class="gallary-item">
+              <img src="img/hotel-1.jpg" class="gallary-photo" alt="" />
+            </figure>
+            <figure class="gallary-item">
+              <img src="img/hotel-2.jpg" class="gallary-photo" alt="" />
+            </figure>
+            <figure class="gallary-item">
+              <img src="img/hotel-3.jpg" class="gallary-photo" alt="" />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview-heading">
+              Hotel Plaza
+            </h1>
+            <div class="overview-star">
+              <svg class="overview-staricon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview-staricon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview-staricon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview-staricon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview-staricon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="overview-location">
+              <svg class="overview-locationicon">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Baga Beach Goa</button>
+            </div>
+            <div class="overview-rating">
+              <div class="overview-rating-average">4.8</div>
+              <div class="overview-rating-count">458 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+              </p>
+              <p class="paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+              <ul class="list">
+                <li class="list-item">Close to the beach</li>
+                <li class="list-item">Free airport shuttle</li>
+                <li class="list-item">breakfast includes</li>
+                <li class="list-item">Free wifi in all rooms</li>
+                <li class="list-item">air conditioning and heating</li>
+                <li class="list-item">Pets allowed</li>
+                <li class="list-item">we speak all languages</li>
+                <li class="list-item">perfect for the families</li>
+              </ul>
+              <div class="recommend"> 
+                <div class="recommend-text">
+                  Lucy and 3 other friends recommented this hotel.
+                </div>
+                <div class="recommend-images">
+                  <img src="img/user-3.jpg" class="recommend-photo" alt="">
+                  <img src="img/user-4.jpg" class="recommend-photo" alt="">
+                  <img src="img/user-5.jpg" class="recommend-photo" alt="">
+                  <img src="img/user-6.jpg" class="recommend-photo" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="reviews">
+              <figure class="review">
+                <div class="review-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                </div>
+                <div class="review-user-box">
+                  <img src="img/user-1.jpg" class="review-photo" alt="">
+
+                  <div class="review-user-info">
+                    <p class="review-name">Nick Smith</p>
+                    <p class="review-date">Feb 23rd,2017</p>
+                  </div>
+                  <h1 class="review-rating">7.8</h1>
+                </div>
+              </figure>
+
+              <figure class="review">
+                <div class="review-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+                </div>
+                <div class="review-user-box">
+                  <img src="img/user-2.jpg" class="review-photo" alt="">
+
+                  <div class="review-user-info">
+                    <p class="review-name">Mary thomas</p>
+                    <p class="review-date">sep 13th,2020</p>
+                  </div>
+
+                  <h1 class="review-rating">9.3</h1>
+                </div>
+              </figure>
+              <button class="btn-inline">Show Mode <span> &rarr; </span></button>
+            </div>
+          
+          </div>
+          <div class="cta">
+            <p class="cta-text">good news! we have 4 free rooms on your selected date</p>
+            <div class="btn">
+              <span class="btn-visible">book now</span>
+              <span class="btn-invisible">only 4 rooms left</span>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
